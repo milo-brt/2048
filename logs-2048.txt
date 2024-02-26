@@ -1,0 +1,50 @@
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+new
+score = 0
+right
+up
+up
+new
+score = 0
+right
+new
+score = 0
+right
+right
+right
+new
+score = 0
+up
+right
+left
+right
+up
+up
+left
+up

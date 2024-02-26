@@ -1,0 +1,213 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e6e8e1;
+	font-family: "Poppins", sans-serif;
+}
+
+.bi {
+	height: 25px;
+	width: 25px;
+}
+
+.regles {
+	border-radius: 10px;
+	background-color: #4A4A4A;
+	color: #ffffff;
+	padding: 10px;
+	max-width: 80%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.regles p {
+	font-size: 15px;
+	padding: 10px;
+	margin: 0px;
+	text-align: justify;
+}
+
+form {
+	text-align: center;
+}
+
+button[type=submit] {
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	background-color: #9000B3;
+	border: none;
+	border-radius: 10px;
+	height: auto;
+	width: auto;
+	padding: 10px 15px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #7E009E;
+}
+
+table {
+	border: 4px solid #0090C1;
+	border-spacing: 8px;
+	border-radius: 10px;
+	background-color: #0090C1;
+}
+
+table td {
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	background-color: #7DC9E3;
+	border-radius: 10px;
+}
+
+.val-2 {
+	background-color: #9653A7;
+}
+
+.val-4 {
+	background-color: #FF7C5E;
+}
+
+.val-8 {
+	background-color: #D2DBBC;
+}
+
+.val-16 {
+	background-color: #3AA0C2;
+}
+
+.val-32 {
+	background-color: #C7358C;
+}
+
+.val-64 {
+	background-color: #DD3A2E;
+}
+
+.val-128 {
+	background-color: #9E9E9E;
+}
+
+.val-256 {
+	background-color: #90CAFF;
+}
+
+.val-512 {
+	background-color: #AE68FF;
+}
+
+.val-1024 {
+	background-color: #FF7D3C;
+}
+
+.val-2048 {
+	background-color: #6B7555;
+}
+
+.controles {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.controles button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.hb {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer a {
+	color: #FF6542;
+}
+
+footer a:visited {
+	color: #FF6542;
+}
+
+.lost {
+	position: absolute;
+	top: 50%;
+	background: #FF6542;
+	width: 100%;
+	height: 100px;
+	color: white;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+@media (min-width: 400px) { 
+	table td {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media (min-width: 440px) { 
+	table td {
+		width: 90px;
+		height: 90px;
+	}
+	.lost {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 480px) { 
+	table td {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media (min-width: 992px) { 
+	.regles {
+		position: absolute;
+		width: 20%;
+		left: 20px;
+		top: 8%;
+	}
+	.lost {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.regles {
+		width: 20%;
+		left: 20px;
+		top: 15%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.regles {
+		width: 20%;
+		left: 20px;
+		top: 23%;
+	}
+}
