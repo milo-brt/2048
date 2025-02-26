@@ -5,7 +5,7 @@ TP n°2 de l'UE [LIFRW : Introduction aux Réseaux et au Web](http://perso.univ-
 ## Objectif
 
 Réaliser le jeu 2048 en PHP en respectant une organisation bien précise et détaillée dans le TP :  
-- la page d'acceuil est un fichier `.html` qui renvoie sur le jeu php au clic du bouton "Nouvelle partie"
+- la page d'accueil est un fichier `.html` qui renvoie sur le jeu php au clic du bouton "Nouvelle partie"
 - le score de la partie en cours, le contenu de la grille et l'historique des actions du joueur sont stockés dans des fichiers `.txt` côté serveur 
 - le jeu est jouable avec des boutons sur la page
 - le jeu affiche un message quand la partie est perdue
