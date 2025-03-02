@@ -2,7 +2,7 @@
 
 🇫🇷 Pour la version française, [c'est par ici](README_fr.md)
 
-Practical work n°2 of the course unit [LIFRW : Introduction to Networks and Web](http://perso.univ-lyon1.fr/olivier.gluck/supports_enseig.html#LIFRW) done during my first year of preparatory class at [Polytech Lyon](https://polytech.univ-lyon1.fr/english-version)
+Practical work n°2 of the [LIFRW : Introduction to Networks and Web](http://perso.univ-lyon1.fr/olivier.gluck/supports_enseig.html#LIFRW) course unit done during my first year of preparatory class at [Polytech Lyon](https://polytech.univ-lyon1.fr/english-version)
 
 ## Goal
 
