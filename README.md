@@ -1,29 +1,31 @@
-# Le Jeu 2048 en PHP [projet universitaire]  
+# The 2048 game in PHP [university project]  
 
-TP n°2 de l'UE [LIFRW : Introduction aux Réseaux et au Web](http://perso.univ-lyon1.fr/olivier.gluck/supports_enseig.html#LIFRW) réalisé lors de ma première année de prépa intégrée à [Polytech Lyon](https://polytech.univ-lyon1.fr/)
+🇫🇷 Pour la version française, [c'est par ici](README_fr.md)
 
-## Objectif
+Practical work n°2 of the course unit [LIFRW : Introduction to Networks and Web](http://perso.univ-lyon1.fr/olivier.gluck/supports_enseig.html#LIFRW) done during my first year of preparatory class at [Polytech Lyon](https://polytech.univ-lyon1.fr/english-version)
 
-Réaliser le jeu 2048 en PHP en respectant une organisation bien précise et détaillée dans le TP :  
-- la page d'accueil est un fichier `.html` qui renvoie sur le jeu php au clic du bouton "Nouvelle partie"
-- le score de la partie en cours, le contenu de la grille et l'historique des actions du joueur sont stockés dans des fichiers `.txt` côté serveur 
-- le jeu est jouable avec des boutons sur la page
-- le jeu affiche un message quand la partie est perdue
-- de nombreuses indications sont données sur la manière de coder le jeu et notamment de gérer la grille et le déplacement des cases
-- les règles doivent apparaître sur la page
+## Goal
 
-## Ajouts personnels  
+Make the 2048 game in PHP following a precise and detailed organization as described in the practical work:
+- the homepage is an `.html` file that redirects to the PHP game when the "New Game" button is clicked
+- the current game score, grid content, and player action history are stored in `.txt` files on the server side
+- the game can be played with buttons on the page
+- the game displays a message when the player looses
+- many instructions are given on how to code the game, especially on managing the grid and moving the tiles
+- the rules must appear on the page
 
-- Refonte complète du CSS pour rendre le jeu plus moderne et plus agréable visuellement
-- Prise en charge du clavier pour jouer (flèches directionnelles)
+## Personal Additions
 
-## Inconvénients  
+- Complete CSS overhaul to make the game more modern and visually appealing
+- Keyboard support for playing (arrow keys)
 
-- En l'état, il n'est pas possible de jouer à plusieurs en même temps, la sauvegarde étant unique et stockée côté serveur
-- A chaque action du joueur le serveur est sollicité pour mettre à jour la grille, ce qui n'est pas optimal en terme de performances notamment pour un jeu en ligne
+## Drawbacks
 
-## Résultat    
+- It is not possible to play with multiple players at the same time, as the save is unique and stored on the server side
+- With each player action, the server is solicited to update the grid, which is not optimal in terms of performance, especially for an online game
 
-<img src="2048.png" alt="Aperçu du jeu 2048" width="500"/>
+## Result
 
-Une copie du projet est hébergée [ici](https://projects.milobrt.fr/2048)
+<img src="2048.png" alt="Preview of the 2048 game" width="500"/>
+
+A copy of the project is hosted [here](https://projects.milobrt.fr/2048)
